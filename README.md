@@ -40,21 +40,21 @@ This project involves the design of a **single-cycle RISC-V processor** with an 
 
 ---
 
-## **Two-Channel DC Power Supply** ⚡
+## **Autonomous Drone Fleet Coordination Simulator** 🚁
 
-This project involves the **design and implementation of a two-channel DC power supply** with:
+This project is a **simulation platform** for coordinating multiple autonomous drones in a **3D environment**. It models drone behavior including navigation, communication, collision avoidance, and formation control. Key features include:
 
-* **Variable output:** 0.5 V – 27 V @ 0.5 A
-* **Fixed output:** +5 V @ 0.5 A
-* Converts 220 V AC into regulated DC using a step-down transformer and proper rectification
+* **Autonomous multi-agent drones**
+* **Target tracking**
+* **Formation control**
+* **Collision avoidance using repulsive forces**
+* **Communication constraints and probabilistic packet loss**
+* **Real-time GUI visualization**
+* **Performance logging**
+* **Scalable, object-oriented design**
 
-Key features include:
+The simulator uses **Java** and **JavaFX**, with discrete-time numerical integration. Each drone is implemented as an independent agent, making the system **decentralized and modular**.
 
-* **Variable channel** with LM317T + BD139 & 2N3055 pass transistors for high current handling
-* **Fixed +5 V channel** using LM7805 regulator with thermal protection
-* **Filtering & regulation** for low ripple and stable outputs
-* **Custom PVC enclosure** with banana terminals, USB port, digital voltmeter, and handle for portability and safety
-
-*Developed as a 3rd semester project for EE-215 at NUST CEME.*
+*Developed as a semester project for CS-212 at NUST CEME.*
 
 ---
