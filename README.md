@@ -4,7 +4,7 @@
 
 ---
 
-## **1. 2D Retro Arcade Fighting Game** 🎮
+## **2D Retro Arcade Fighting Game** 🎮
 
 This is a **2D fighting game** built with **SFML**, featuring animated characters with states like *Idle*, *Move*, *Jump*, *Punch*, and *Kick*. It includes:
 
@@ -24,7 +24,7 @@ The **current version** consolidates all game logic into a **single file** for s
 
 ---
 
-## **2. CSA Complex Engineering Problem (CEP)** 🖥️
+## **CSA Complex Engineering Problem (CEP)** 🖥️
 
 This project involves the design of a **single-cycle RISC-V processor** with an integrated **multicycle hardware multiplier**. Key features include:
 
