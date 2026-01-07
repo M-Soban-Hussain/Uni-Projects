@@ -24,7 +24,7 @@ The **current version** consolidates all game logic into a **single file** for s
 
 ---
 
-## **CSA Complex Engineering Problem (CEP)** 🖥️
+## **Single-Cycle RISC-V Processor with Multicycle Hardware Multiplier** 🖥️
 
 This project involves the design of a **single-cycle RISC-V processor** with an integrated **multicycle hardware multiplier**. Key features include:
 
