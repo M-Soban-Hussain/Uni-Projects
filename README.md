@@ -39,3 +39,22 @@ This project involves the design of a **single-cycle RISC-V processor** with an 
 * **Clear modular structure for learning and FPGA implementation**
 
 ---
+
+## **Two-Channel DC Power Supply** ⚡
+
+This project involves the **design and implementation of a two-channel DC power supply** with:
+
+* **Variable output:** 0.5 V – 27 V @ 0.5 A
+* **Fixed output:** +5 V @ 0.5 A
+* Converts 220 V AC into regulated DC using a step-down transformer and proper rectification
+
+Key features include:
+
+* **Variable channel** with LM317T + BD139 & 2N3055 pass transistors for high current handling
+* **Fixed +5 V channel** using LM7805 regulator with thermal protection
+* **Filtering & regulation** for low ripple and stable outputs
+* **Custom PVC enclosure** with banana terminals, USB port, digital voltmeter, and handle for portability and safety
+
+*Developed as a 3rd semester project for EE-215 at NUST CEME.*
+
+---
